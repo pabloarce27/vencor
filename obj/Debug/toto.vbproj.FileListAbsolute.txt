@@ -1,0 +1,11 @@
+C:\Users\leo_t\source\repos\toto\bin\Debug\toto.exe.config
+C:\Users\leo_t\source\repos\toto\bin\Debug\toto.exe
+C:\Users\leo_t\source\repos\toto\bin\Debug\toto.pdb
+C:\Users\leo_t\source\repos\toto\bin\Debug\toto.xml
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.vbprojAssemblyReference.cache
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.Resources.resources
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.vbproj.GenerateResource.cache
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.vbproj.CoreCompileInputs.cache
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.exe
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.xml
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.pdb
