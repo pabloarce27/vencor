@@ -35,7 +35,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        abrirFormHijo(New prueba1())
+        abrirFormHijo(New Productos())
         hideSubmenu()
     End Sub
 
@@ -50,7 +50,7 @@
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        abrirFormHijo(New prueba2())
+        'abrirFormHijo(New prueba2())'
         hideSubmenu()
     End Sub
 

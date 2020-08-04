@@ -22,6 +22,7 @@ Partial Class menuAdmin
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(menuAdmin))
         Me.PanelMenuLateral = New System.Windows.Forms.Panel()
         Me.SubMenu3 = New System.Windows.Forms.Panel()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -229,7 +230,7 @@ Partial Class menuAdmin
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(171, 32)
         Me.Button4.TabIndex = 2
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Usuarios"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
@@ -241,7 +242,7 @@ Partial Class menuAdmin
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(171, 32)
         Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Proveedor"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
@@ -253,7 +254,7 @@ Partial Class menuAdmin
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(171, 32)
         Me.Button2.TabIndex = 0
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Productos"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
@@ -270,7 +271,7 @@ Partial Class menuAdmin
         Me.Button1.Padding = New System.Windows.Forms.Padding(8, 0, 0, 0)
         Me.Button1.Size = New System.Drawing.Size(171, 37)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Principal"
+        Me.Button1.Text = "Gestionar"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button1.UseVisualStyleBackColor = True
@@ -332,6 +333,7 @@ Partial Class menuAdmin
         Me.Controls.Add(Me.PanelFormHijos)
         Me.Controls.Add(Me.PanelMenuLateral)
         Me.ForeColor = System.Drawing.Color.Silver
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "menuAdmin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
