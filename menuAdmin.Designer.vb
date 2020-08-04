@@ -40,10 +40,16 @@ Partial Class menuAdmin
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PanelFormHijos = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelMenuLateral.SuspendLayout()
         Me.SubMenu3.SuspendLayout()
         Me.SubMenu2.SuspendLayout()
         Me.SubMenu1.SuspendLayout()
+        Me.PanelLogo.SuspendLayout()
+        Me.PanelFormHijos.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelMenuLateral
@@ -255,6 +261,7 @@ Partial Class menuAdmin
         '
         'PanelLogo
         '
+        Me.PanelLogo.Controls.Add(Me.PictureBox1)
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelLogo.Location = New System.Drawing.Point(0, 0)
         Me.PanelLogo.Name = "PanelLogo"
@@ -263,12 +270,33 @@ Partial Class menuAdmin
         '
         'PanelFormHijos
         '
-        Me.PanelFormHijos.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.PanelFormHijos.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PanelFormHijos.Controls.Add(Me.PictureBox2)
         Me.PanelFormHijos.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelFormHijos.Location = New System.Drawing.Point(250, 0)
         Me.PanelFormHijos.Name = "PanelFormHijos"
         Me.PanelFormHijos.Size = New System.Drawing.Size(882, 714)
         Me.PanelFormHijos.TabIndex = 1
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.toto.My.Resources.Resources.vencor_presentacion
+        Me.PictureBox2.Location = New System.Drawing.Point(212, 186)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(453, 277)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.toto.My.Resources.Resources.logo_vencor
+        Me.PictureBox1.Location = New System.Drawing.Point(36, 31)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(148, 40)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'menuAdmin
         '
@@ -285,6 +313,10 @@ Partial Class menuAdmin
         Me.SubMenu3.ResumeLayout(False)
         Me.SubMenu2.ResumeLayout(False)
         Me.SubMenu1.ResumeLayout(False)
+        Me.PanelLogo.ResumeLayout(False)
+        Me.PanelFormHijos.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -307,4 +339,6 @@ Partial Class menuAdmin
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents PanelFormHijos As Panel
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

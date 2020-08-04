@@ -150,5 +150,8 @@
   <ItemGroup>
     <None Include="Resources\logo-vencor.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vencor-presentacion.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -72,4 +72,8 @@
         childForm.BringToFront()
         childForm.Show()
     End Sub
+
+    Private Sub PanelFormHijos_Paint(sender As Object, e As PaintEventArgs) Handles PanelFormHijos.Paint
+
+    End Sub
 End Class
