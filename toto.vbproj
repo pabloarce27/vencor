@@ -153,5 +153,8 @@
   <ItemGroup>
     <None Include="Resources\vencor-presentacion.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-top-gradient-background.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
