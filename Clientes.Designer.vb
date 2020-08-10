@@ -31,16 +31,16 @@ Partial Class Clientes
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 125)
+        Me.DataGridView1.Location = New System.Drawing.Point(37, 125)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(1282, 568)
+        Me.DataGridView1.Size = New System.Drawing.Size(1232, 568)
         Me.DataGridView1.TabIndex = 32
         '
         'BBuscar
         '
-        Me.BBuscar.Location = New System.Drawing.Point(182, 52)
+        Me.BBuscar.Location = New System.Drawing.Point(207, 57)
         Me.BBuscar.Name = "BBuscar"
         Me.BBuscar.Size = New System.Drawing.Size(75, 23)
         Me.BBuscar.TabIndex = 33
@@ -49,7 +49,7 @@ Partial Class Clientes
         '
         'TBBusqueda
         '
-        Me.TBBusqueda.Location = New System.Drawing.Point(12, 52)
+        Me.TBBusqueda.Location = New System.Drawing.Point(37, 57)
         Me.TBBusqueda.Name = "TBBusqueda"
         Me.TBBusqueda.Size = New System.Drawing.Size(164, 22)
         Me.TBBusqueda.TabIndex = 34
@@ -62,6 +62,7 @@ Partial Class Clientes
         Me.Controls.Add(Me.TBBusqueda)
         Me.Controls.Add(Me.BBuscar)
         Me.Controls.Add(Me.DataGridView1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Clientes"
         Me.Text = "Clientes"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

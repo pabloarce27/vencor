@@ -12,3 +12,5 @@ C:\Users\leo_t\source\repos\toto\obj\Debug\toto.pdb
 C:\Users\leo_t\source\repos\toto\obj\Debug\toto.inicio.resources
 C:\Users\leo_t\source\repos\toto\obj\Debug\toto.menuAdmin.resources
 C:\Users\leo_t\source\repos\toto\obj\Debug\toto.Productos.resources
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.Clientes.resources
+C:\Users\leo_t\source\repos\toto\obj\Debug\toto.Empleados.resources

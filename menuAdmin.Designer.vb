@@ -35,10 +35,10 @@ Partial Class menuAdmin
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.SubMenu1 = New System.Windows.Forms.Panel()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BClientes = New System.Windows.Forms.Button()
+        Me.BEmpleados = New System.Windows.Forms.Button()
+        Me.BProductos = New System.Windows.Forms.Button()
+        Me.BGestion = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelFormHijos = New System.Windows.Forms.Panel()
@@ -62,7 +62,7 @@ Partial Class menuAdmin
         Me.PanelMenuLateral.Controls.Add(Me.SubMenu2)
         Me.PanelMenuLateral.Controls.Add(Me.Button8)
         Me.PanelMenuLateral.Controls.Add(Me.SubMenu1)
-        Me.PanelMenuLateral.Controls.Add(Me.Button1)
+        Me.PanelMenuLateral.Controls.Add(Me.BGestion)
         Me.PanelMenuLateral.Controls.Add(Me.PanelLogo)
         Me.PanelMenuLateral.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenuLateral.ForeColor = System.Drawing.Color.Silver
@@ -211,9 +211,9 @@ Partial Class menuAdmin
         'SubMenu1
         '
         Me.SubMenu1.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(39, Byte), Integer))
-        Me.SubMenu1.Controls.Add(Me.Button4)
-        Me.SubMenu1.Controls.Add(Me.Button3)
-        Me.SubMenu1.Controls.Add(Me.Button2)
+        Me.SubMenu1.Controls.Add(Me.BClientes)
+        Me.SubMenu1.Controls.Add(Me.BEmpleados)
+        Me.SubMenu1.Controls.Add(Me.BProductos)
         Me.SubMenu1.Dock = System.Windows.Forms.DockStyle.Top
         Me.SubMenu1.Location = New System.Drawing.Point(0, 141)
         Me.SubMenu1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -221,60 +221,60 @@ Partial Class menuAdmin
         Me.SubMenu1.Size = New System.Drawing.Size(230, 162)
         Me.SubMenu1.TabIndex = 2
         '
-        'Button4
+        'BClientes
         '
-        Me.Button4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(0, 78)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(230, 39)
-        Me.Button4.TabIndex = 2
-        Me.Button4.Text = "Usuarios"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BClientes.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BClientes.Location = New System.Drawing.Point(0, 78)
+        Me.BClientes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BClientes.Name = "BClientes"
+        Me.BClientes.Size = New System.Drawing.Size(230, 39)
+        Me.BClientes.TabIndex = 2
+        Me.BClientes.Text = "Clientes"
+        Me.BClientes.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BEmpleados
         '
-        Me.Button3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(0, 39)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(230, 39)
-        Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Proveedor"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BEmpleados.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BEmpleados.Location = New System.Drawing.Point(0, 39)
+        Me.BEmpleados.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BEmpleados.Name = "BEmpleados"
+        Me.BEmpleados.Size = New System.Drawing.Size(230, 39)
+        Me.BEmpleados.TabIndex = 1
+        Me.BEmpleados.Text = "Empleados"
+        Me.BEmpleados.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BProductos
         '
-        Me.Button2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(0, 0)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(230, 39)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "Productos"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BProductos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BProductos.Location = New System.Drawing.Point(0, 0)
+        Me.BProductos.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BProductos.Name = "BProductos"
+        Me.BProductos.Size = New System.Drawing.Size(230, 39)
+        Me.BProductos.TabIndex = 0
+        Me.BProductos.Text = "Productos"
+        Me.BProductos.UseVisualStyleBackColor = True
         '
-        'Button1
+        'BGestion
         '
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(32, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(22, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Silver
-        Me.Button1.Location = New System.Drawing.Point(0, 95)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Padding = New System.Windows.Forms.Padding(11, 0, 0, 0)
-        Me.Button1.Size = New System.Drawing.Size(230, 46)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Gestionar"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BGestion.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BGestion.FlatAppearance.BorderSize = 0
+        Me.BGestion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(32, Byte), Integer))
+        Me.BGestion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(22, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.BGestion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BGestion.ForeColor = System.Drawing.Color.Silver
+        Me.BGestion.Location = New System.Drawing.Point(0, 95)
+        Me.BGestion.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.BGestion.Name = "BGestion"
+        Me.BGestion.Padding = New System.Windows.Forms.Padding(11, 0, 0, 0)
+        Me.BGestion.Size = New System.Drawing.Size(230, 46)
+        Me.BGestion.TabIndex = 1
+        Me.BGestion.Text = "Gestionar"
+        Me.BGestion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BGestion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.BGestion.UseVisualStyleBackColor = True
         '
         'PanelLogo
         '
@@ -329,6 +329,7 @@ Partial Class menuAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1555, 705)
         Me.Controls.Add(Me.PanelFormHijos)
         Me.Controls.Add(Me.PanelMenuLateral)
@@ -338,6 +339,7 @@ Partial Class menuAdmin
         Me.Name = "menuAdmin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "menuAdmin"
+        Me.TransparencyKey = System.Drawing.Color.Black
         Me.PanelMenuLateral.ResumeLayout(False)
         Me.SubMenu3.ResumeLayout(False)
         Me.SubMenu2.ResumeLayout(False)
@@ -351,12 +353,12 @@ Partial Class menuAdmin
     End Sub
 
     Friend WithEvents PanelMenuLateral As Panel
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BGestion As Button
     Friend WithEvents PanelLogo As Panel
     Friend WithEvents SubMenu1 As Panel
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents BClientes As Button
+    Friend WithEvents BEmpleados As Button
+    Friend WithEvents BProductos As Button
     Friend WithEvents SubMenu3 As Panel
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button

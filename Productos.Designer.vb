@@ -22,7 +22,6 @@ Partial Class Productos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -37,24 +36,15 @@ Partial Class Productos
         Me.BImagen = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(12, 1)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(54, 43)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "X"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(2, 100)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
@@ -65,8 +55,8 @@ Partial Class Productos
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(245, 100)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Location = New System.Drawing.Point(266, 100)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(307, 24)
         Me.ComboBox1.TabIndex = 4
@@ -75,6 +65,7 @@ Partial Class Productos
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(2, 279)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
@@ -86,6 +77,7 @@ Partial Class Productos
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(2, 244)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
@@ -97,6 +89,7 @@ Partial Class Productos
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(2, 209)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
@@ -108,6 +101,7 @@ Partial Class Productos
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(2, 173)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
@@ -119,6 +113,7 @@ Partial Class Productos
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
         Me.Label6.Location = New System.Drawing.Point(2, 139)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
@@ -128,40 +123,40 @@ Partial Class Productos
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(246, 139)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Location = New System.Drawing.Point(267, 139)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(305, 22)
         Me.TextBox1.TabIndex = 10
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(244, 254)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox4.Location = New System.Drawing.Point(265, 254)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(308, 22)
         Me.TextBox4.TabIndex = 13
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(244, 218)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox5.Location = New System.Drawing.Point(265, 218)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(308, 22)
         Me.TextBox5.TabIndex = 14
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(244, 180)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox6.Location = New System.Drawing.Point(265, 180)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(308, 22)
         Me.TextBox6.TabIndex = 15
         '
         'BImagen
         '
-        Me.BImagen.Location = New System.Drawing.Point(244, 290)
-        Me.BImagen.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BImagen.Location = New System.Drawing.Point(265, 290)
+        Me.BImagen.Margin = New System.Windows.Forms.Padding(4)
         Me.BImagen.Name = "BImagen"
         Me.BImagen.Size = New System.Drawing.Size(156, 28)
         Me.BImagen.TabIndex = 16
@@ -171,7 +166,7 @@ Partial Class Productos
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(408, 296)
+        Me.Label7.Location = New System.Drawing.Point(262, 322)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(195, 17)
@@ -181,12 +176,23 @@ Partial Class Productos
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(610, 82)
+        Me.DataGridView1.Location = New System.Drawing.Point(605, 72)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(676, 568)
         Me.DataGridView1.TabIndex = 18
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.Location = New System.Drawing.Point(12, 1)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(54, 43)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "X"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Productos
         '
@@ -208,7 +214,6 @@ Partial Class Productos
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Productos"
         Me.Text = "Gestion de Productos"
@@ -217,8 +222,6 @@ Partial Class Productos
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label2 As Label
@@ -233,4 +236,5 @@ Partial Class Productos
     Friend WithEvents BImagen As Button
     Friend WithEvents Label7 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Button1 As Button
 End Class
